@@ -1,253 +1,65 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FloodBlock™ – WPC Flood Barrier</title>
-  <meta name="description" content="Protect your property in minutes with FloodBlock – a WPC flood barrier with permanent frame and secure lock." />
-  <link rel="icon" href="assets/p8.jpg" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .gradient-bg { background: linear-gradient(135deg, #1373b9 0%, #0ea5e9 100%); }
-    .glass { background: rgba(255,255,255,0.12); backdrop-filter: blur(6px); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloodBlock - WPC Flood Barrier System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #002366;
+            padding: 10px 0;
+        }
+        header img {
+            max-width: 250px;
+            height: auto;
+        }
+        .hero {
+            padding: 20px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 900px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .hero img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .content {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        footer {
+            background-color: #002366;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-<body class="text-slate-900 antialiased">
-  <!-- Header / Hero -->
-  <header class="gradient-bg text-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <img src="assets/p8.jpg" class="h-10 w-auto rounded-sm" alt="FloodBlock logo" />
-        <span class="font-bold tracking-wide text-xl">FloodBlock</span>
-      </div>
-      <nav class="hidden md:flex gap-6 text-white/90">
-        <a href="#why" class="hover:text-white">Why FloodBlock</a>
-        <a href="#wpc" class="hover:text-white">WPC Benefits</a>
-        <a href="#how" class="hover:text-white">How it works</a>
-        <a href="#quote" class="hover:text-white">Get Quote</a>
-      </nav>
-      <a href="#quote" class="inline-flex items-center bg-white text-sky-700 font-semibold rounded-lg px-4 py-2 shadow hover:shadow-md">Get Free Quote</a>
-    </div>
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 pt-4 grid md:grid-cols-2 gap-8 items-center">
-      <div>
-        <span class="inline-block text-xs uppercase tracking-widest bg-white/10 px-3 py-1 rounded-full mb-4">Revolutionary Flood Protection</span>
-        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Protect your property in just 2 minutes with our innovative <span class="underline decoration-white/50">WPC flood barrier</span>.</h1>
-        <p class="mt-4 text-white/90 text-lg">Permanent U-frame, universal fit, and a secure lock for maximum protection.</p>
-        <div class="mt-6 flex gap-4">
-          <a href="#quote" class="bg-white text-sky-700 font-semibold rounded-lg px-5 py-3 shadow hover:shadow-md">Get Free Quote</a>
-          <a href="#how" class="glass ring-1 ring-white/30 text-white font-semibold rounded-lg px-5 py-3 hover:bg-white/10">See how it works</a>
-        </div>
-      </div>
-      <div class="relative">
-        <div class="rounded-xl overflow-hidden shadow-2xl ring-1 ring-white/10">
-          <img src="assets/p6.jpg" alt="FloodBlock installed" class="w-full h-auto" />
-        </div>
-        <p class="text-white/80 text-sm mt-3 text-center">FloodBlock installed and ready for protection</p>
-      </div>
-    </div>
-  </header>
-
-  <!-- Why -->
-  <section id="why" class="bg-slate-50 py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-center">Why Choose FloodBlock?</h2>
-      <p class="text-slate-600 text-center mt-2">Advanced protection with minimal effort — your property's first line of defense.</p>
-      <div class="grid md:grid-cols-4 gap-6 mt-10">
-        <div class="bg-white rounded-xl shadow-sm p-6">
-          <div class="text-sky-600">🕒</div>
-          <h3 class="font-semibold mt-2">2-Minute Installation</h3>
-          <p class="text-slate-600 text-sm">Quick and easy setup during flood emergencies.</p>
-        </div>
-        <div class="bg-white rounded-xl shadow-sm p-6">
-          <div class="text-sky-600">🛡️</div>
-          <h3 class="font-semibold mt-2">Permanent Frame</h3>
-          <p class="text-slate-600 text-sm">U-shaped frame stays attached to your openings.</p>
-        </div>
-        <div class="bg-white rounded-xl shadow-sm p-6">
-          <div class="text-sky-600">🏠</div>
-          <h3 class="font-semibold mt-2">Universal Fit</h3>
-          <p class="text-slate-600 text-sm">Suitable for doors, windows, and more.</p>
-        </div>
-        <div class="bg-white rounded-xl shadow-sm p-6">
-          <div class="text-sky-600">🔒</div>
-          <h3 class="font-semibold mt-2">Secure Lock</h3>
-          <p class="text-slate-600 text-sm">Locks firmly in place for maximum protection.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WPC -->
-  <section id="wpc" class="py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-center">WPC Material Benefits</h2>
-      <p class="text-slate-600 text-center mt-2">Wood-Plastic Composite technology provides superior performance and durability.</p>
-      <div class="grid md:grid-cols-4 gap-6 mt-10">
-        <div class="text-center p-6">
-          <div class="text-sky-600 text-2xl">💧</div>
-          <h3 class="font-semibold mt-2">100% Waterproof</h3>
-          <p class="text-slate-600 text-sm">WPC material is completely waterproof and won't absorb moisture.</p>
-        </div>
-        <div class="text-center p-6">
-          <div class="text-sky-600 text-2xl">🌤️</div>
-          <h3 class="font-semibold mt-2">Weather Resistant</h3>
-          <p class="text-slate-600 text-sm">Withstands extreme weather and UV exposure.</p>
-        </div>
-        <div class="text-center p-6">
-          <div class="text-sky-600 text-2xl">🌿</div>
-          <h3 class="font-semibold mt-2">Eco‑Friendly</h3>
-          <p class="text-slate-600 text-sm">Made from recycled wood fibers and plastic.</p>
-        </div>
-        <div class="text-center p-6">
-          <div class="text-sky-600 text-2xl">🧰</div>
-          <h3 class="font-semibold mt-2">Low Maintenance</h3>
-          <p class="text-slate-600 text-sm">No painting, sealing, or staining required.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- How it works -->
-  <section id="how" class="bg-slate-50 py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-center">
-      <div class="rounded-xl overflow-hidden shadow-lg">
-        <img src="assets/p7.jpg" alt="FloodBlock panel installed" class="w-full h-auto" />
-      </div>
-      <div>
-        <ol class="space-y-6">
-          <li class="flex gap-4">
-            <span class="h-10 w-10 flex items-center justify-center rounded-full bg-green-600 text-white font-bold">1</span>
-            <div>
-              <h3 class="font-semibold text-lg">Permanent Installation</h3>
-              <p class="text-slate-600">U-shaped frame is installed once and remains in place.</p>
-            </div>
-          </li>
-          <li class="flex gap-4">
-            <span class="h-10 w-10 flex items-center justify-center rounded-full bg-sky-600 text-white font-bold">2</span>
-            <div>
-              <h3 class="font-semibold text-lg">Emergency Activation</h3>
-              <p class="text-slate-600">Insert the WPC barrier panel into the frame — takes ~2 minutes.</p>
-            </div>
-          </li>
-          <li class="flex gap-4">
-            <span class="h-10 w-10 flex items-center justify-center rounded-full bg-emerald-600 text-white font-bold">3</span>
-            <div>
-              <h3 class="font-semibold text-lg">Secure Protection</h3>
-              <p class="text-slate-600">Locking mechanism secures the panel firmly in place.</p>
-            </div>
-          </li>
-        </ol>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="py-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl font-bold text-center">What Our Customers Say</h2>
-      <div class="grid md:grid-cols-3 gap-6 mt-10">
-        <figure class="bg-white rounded-xl shadow p-6">
-          <div class="text-yellow-500">★★★★★</div>
-          <blockquote class="mt-3 text-slate-700">"FloodBlock saved our home during the monsoon floods. Installation was quick and it worked perfectly!"</blockquote>
-          <figcaption class="mt-4 font-semibold">Priya Sharma <span class="text-slate-500 font-normal">— Mumbai</span></figcaption>
-        </figure>
-        <figure class="bg-white rounded-xl shadow p-6">
-          <div class="text-yellow-500">★★★★★</div>
-          <blockquote class="mt-3 text-slate-700">"Best investment we've made. Peace of mind knowing we can protect our property in minutes."</blockquote>
-          <figcaption class="mt-4 font-semibold">Rajesh Kumar <span class="text-slate-500 font-normal">— Chennai</span></figcaption>
-        </figure>
-        <figure class="bg-white rounded-xl shadow p-6">
-          <div class="text-yellow-500">★★★★★</div>
-          <blockquote class="mt-3 text-slate-700">"The WPC material is fantastic — no maintenance required and looks great too."</blockquote>
-          <figcaption class="mt-4 font-semibold">Anita Patel <span class="text-slate-500 font-normal">— Kolkata</span></figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- Quote Form -->
-  <section id="quote" class="gradient-bg py-16 text-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-start">
-      <div>
-        <h2 class="text-3xl font-bold">Get Your Free Quote Today</h2>
-        <p class="text-white/90 mt-2">We service all of India. Professional installation • 5‑year warranty • High‑quality WPC material • 24/7 emergency support</p>
-        <ul class="mt-6 space-y-2 text-white/90">
-          <li>📧 <a href="mailto:floodblock.me@gmail.com" class="underline">floodblock.me@gmail.com</a></li>
-          <li>🌍 Servicing India Wide</li>
-        </ul>
-      </div>
-
-      <form id="quoteForm" class="bg-white/10 rounded-xl p-6 ring-1 ring-white/20 space-y-4">
-        <h3 class="text-xl font-semibold">Request Free Quote</h3>
-        <input class="w-full px-4 py-3 rounded-lg text-slate-900" type="text" name="name" placeholder="Your Name" required />
-        <input class="w-full px-4 py-3 rounded-lg text-slate-900" type="email" name="email" placeholder="Email Address" required />
-        <input class="w-full px-4 py-3 rounded-lg text-slate-900" type="tel" name="phone" placeholder="Phone Number" />
-        <input class="w-full px-4 py-3 rounded-lg text-slate-900" type="text" name="property" placeholder="Property Type (e.g., Residential, Commercial)" />
-        <textarea class="w-full px-4 py-3 rounded-lg text-slate-900" name="message" rows="4" placeholder="Tell us about your flood protection needs…"></textarea>
-        <button class="w-full bg-white text-sky-700 font-semibold rounded-lg px-5 py-3 hover:shadow-md">Send Enquiry</button>
-        <p id="status" class="text-sm text-white/90"></p>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-slate-900 text-slate-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-center space-y-3">
-      <img src="assets/p8.jpg" class="h-8 mx-auto" alt="FloodBlock" />
-      <p>Protecting Indian homes and businesses since 2024</p>
-      <p class="text-xs">&copy; 2024 FloodBlock. All rights reserved. <a class="underline" href="privacy.html">Privacy Policy</a> | <a class="underline" href="terms.html">Terms of Service</a></p>
-    </div>
-  </footer>
-
-  <!-- Google Forms Config & Script -->
-  <script>
-    // 1) Create your Google Form with fields matching below.
-    // 2) Publish the form and open "View form".
-    // 3) Inspect the "formResponse" endpoint and copy the entry IDs (entry.xxxxxx).
-    // 4) Paste into GF_CONFIG; set formAction to the formResponse URL.
-    const GF_CONFIG = {
-      formAction: "", // e.g., "https://docs.google.com/forms/d/e/FORM_ID/formResponse"
-      fields: {
-        name: "entry.123456",
-        email: "entry.234567",
-        phone: "entry.345678",
-        property: "entry.456789",
-        message: "entry.567890"
-      }
-    };
-
-    const form = document.getElementById('quoteForm');
-    const status = document.getElementById('status');
-
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      status.textContent = "";
-      const data = new FormData(form);
-
-      if (!GF_CONFIG.formAction) {
-        status.textContent = "Form not connected yet. Ask us for a quick call and we'll hook up Google Forms.";
-        alert("Google Form not configured. See README for setup.");
-        return;
-      }
-
-      // Map to Google entry fields
-      const gf = new FormData();
-      gf.append(GF_CONFIG.fields.name, data.get('name'));
-      gf.append(GF_CONFIG.fields.email, data.get('email'));
-      gf.append(GF_CONFIG.fields.phone, data.get('phone'));
-      gf.append(GF_CONFIG.fields.property, data.get('property'));
-      gf.append(GF_CONFIG.fields.message, data.get('message'));
-
-      try {
-        const resp = await fetch(GF_CONFIG.formAction, { method: 'POST', mode: 'no-cors', body: gf });
-        form.reset();
-        status.textContent = "Thanks! Your enquiry has been sent.";
-      } catch (err) {
-        console.error(err);
-        status.textContent = "Something went wrong. Please email floodblock.me@gmail.com.";
-      }
-    });
-  </script>
+<body>
+    <header>
+        <img src="assets/LOGO.jpg" alt="FloodBlock Logo">
+    </header>
+    <section class="hero">
+        <img src="assets/PRODUCT.jpg" alt="FloodBlock Product">
+    </section>
+    <section class="content">
+        <h1>FloodBlock - WPC Flood Barrier System</h1>
+        <p>The ultimate protection for your home or business against flood water. Easy to install, durable, and built to withstand the toughest conditions.</p>
+        <p>Contact us today to learn more about how FloodBlock can safeguard your property.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 FloodBlock. All rights reserved.</p>
+    </footer>
 </body>
 </html>
